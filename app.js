@@ -190,3 +190,7 @@ const express = require(_0x3b586f(0x1f8)),
     const _0x50394a = _0x3b586f;
     console[_0x50394a(0x215)](_0x50394a(0x21c) + PORT);
   }));
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
